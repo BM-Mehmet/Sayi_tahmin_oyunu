@@ -14,7 +14,7 @@ int main()
     short say = 1; // kaçıncı sayıyı girildiğini saymak için oluşturulan değişken
     for (short i = 0; i < 6; i++) 
     {
-        srand(time NULL); // kod der çalıştığında zamana bağlı olarak farklı sayılar üretmesi sağlanır
+        srand(time NULL); // kod her çalıştığında zamana bağlı olarak farklı sayılar üretmesi sağlanır
         dizi[i] = rand() % 100; // random sayılar üretilir
         printf("%d. sayiyi girin:", say);
         say++;
